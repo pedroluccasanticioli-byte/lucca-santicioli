@@ -1,0 +1,175 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMK/mLEfV4Oh8B8N4fUZBml",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/pedroluccasanticioli-byte/lucca-santicioli/blob/main/ronaldo\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#faça um programa que leia dois numeros e mostre o resultado da soma.\n",
+        "\n",
+        "num1 = float(input(\"Digite o primeiro número: \"))\n",
+        "num2 = float(input(\"Digite o segundo número: \"))\n",
+        "\n",
+        "soma = num1 + num2\n",
+        "\n",
+        "print(f\"O resultado da soma é: {soma}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "owlC8N-_rrZE",
+        "outputId": "1441949b-ac8e-4f94-9314-b234c2bed9ce"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o primeiro número: 67\n",
+            "Digite o segundo número: 42\n",
+            "O resultado da soma é: 109.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#faça um programa que leia dois numeros e calcula e calcule a multiplicação entre eles.\n",
+        "\n",
+        "num1 = float(input(\"Digite o primeiro número: \"))\n",
+        "\n",
+        "num2 = float(input(\"Digite o segundo número: \"))\n",
+        "\n",
+        "resultado = num1 * num2\n",
+        "\n",
+        "print(f\"O resultado da multiplicação é: {resultado}\")\n"
+      ],
+      "metadata": {
+        "id": "c7YStslorrRs",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "63eb2f74-47d7-4da4-ffcc-161c29596ef1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o primeiro número: 1\n",
+            "Digite o segundo número: 2\n",
+            "O resultado da multiplicação é: 2.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#peça ao usuario duas notas e calcule a media.\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "Rt36wa9qssVP"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#leia um numero e mostre:\n",
+        "\n",
+        "#o dobro;\n",
+        "#o triplo.\n",
+        "\n",
+        "numero = float(input(\"Digite um número: \"))\n",
+        "\n",
+        "dobro = numero * 2\n",
+        "triplo = numero * 3\n",
+        "\n",
+        "print(\"O dobro de\", numero, \"é:\", dobro)\n",
+        "print(\"O triplo de\", numero, \"é:\", triplo)\n"
+      ],
+      "metadata": {
+        "id": "qVGLZK5mrrFd",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "a9269655-88b4-4650-f10e-001c3d9bd7c7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um número: 2\n",
+            "O dobro de 2.0 é: 4.0\n",
+            "O triplo de 2.0 é: 6.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "oLUW6YCIqHU2",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "ec6975e2-3524-4134-9107-ecb390bb2526"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o preço do produto: R$ 1213\n",
+            "Digite a quantidade comprada: 2\n",
+            "O valor total da compra é: R$ 2426.00\n"
+          ]
+        }
+      ],
+      "source": [
+        "#leia o preço de um produto e a quantidade comprada. depois , calcule o valor total da compra.\n",
+        "\n",
+        "preco = float(input(\"Digite o preço do produto: R$ \"))\n",
+        "quantidade = int(input(\"Digite a quantidade comprada: \"))\n",
+        "\n",
+        "total = preco * quantidade\n",
+        "\n",
+        "print(f\"O valor total da compra é: R$ {total:.2f}\")\n"
+      ]
+    }
+  ]
+}
